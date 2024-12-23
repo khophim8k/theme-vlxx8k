@@ -1,20 +1,5 @@
-# THEME - IPC 2022 - OPHIM CMS
+# THEME - VLXX 2023 - KHO8K CMS
 
-## Demo
-### Trang Chủ
-![Alt text](https://i.ibb.co/0MZCZwh/IPC-INDEX.png "Home Page")
-
-### Trang Danh Sách Phim
-![Alt text](https://i.ibb.co/pJ455L9/IPC-CATALOG.png "Catalog Page")
-
-### Trang Thông Tin Phim
-![Alt text](https://i.ibb.co/MCVqVfR/IPC-SINGLE.png "Single Page")
-
-### Trang Xem Phim
-![Alt text](https://i.ibb.co/fGGNgJk/IPC-EPISODE.png "Episode Page")
-
-## Requirements
-https://github.com/hacoidev/ophim-core
 
 ## Install
 1. Tại thư mục của Project: `composer require kho8k/theme-vlxx8k`
