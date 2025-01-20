@@ -44,6 +44,7 @@
 @section('content')
     <div class="content right normal">
         {{-- @include('themes::themevlxx.inc.slider_recommended') --}}
+        {!! get_theme_option('ads_header') !!}
         @foreach ($data as $item)
             <header>
                 <h1>{{$item['label']}}</h1>
