@@ -65,7 +65,7 @@ class ThemeVlxxServiceProvider extends ServiceProvider
                         'label' => 'Home Page',
                         'type' => 'code',
                         'hint' => 'display_label|relation|find_by_field|value|limit|show_more_url',
-                        'value' => "Phim bộ mới||type|series|15|/danh-sach/phim-bo\r\nPhim lẻ mới||type|single|15|/danh-sach/phim-bo\r\nPhim lẻ mới||type|single|15|/danh-sach/phim-bo\r\nPhim lẻ mới||type|single|15|/danh-sach/phim-bo",
+                        'value' => "Phim sex mới||is_copyright|0|30|/danh-sach/phim-moi",
                         'attributes' => [
                             'rows' => 5
                         ],
@@ -76,7 +76,7 @@ class ThemeVlxxServiceProvider extends ServiceProvider
                         'label' => 'Danh sách hot',
                         'type' => 'code',
                         'hint' => 'Label|relation|find_by_field|value|sort_by_field|sort_algo|limit',
-                        'value' => "Top phim lẻ||type|single|view_total|desc|4\r\nTop phim bộ||type|series|view_total|desc|4",
+                        'value' => "",
                         'attributes' => [
                             'rows' => 5
                         ],
@@ -179,11 +179,8 @@ class ThemeVlxxServiceProvider extends ServiceProvider
                                         <div class="copy-right">
                                             <a title="Giới thiệu" href="">Giới thiệu</a> |
                                             <a title="Bản quyền" href="">Bản quyền</a> |
-                                            <a title="Liên hệ" href="">Liên hệ</a> <br><a title="phim mới" href="">Phim mới</a> |
-                                            <a title="Phim lẻ" href="">Phim lẻ</a> |
-                                            <a title="Phim bộ" href="">Phim bộ</a> |
-                                            <a title="Phim chiếu rạp" href="">Phim chiếu rạp</a> |
-                                            <a title="Motphim" href="" target="_blank">Motphim</a><br>
+                                            <a title="Liên hệ" href="">Liên hệ</a> |
+                                            <a title="phim mới" href="">Phim mới</a> |
                                             Website xem phim của chúng tôi được tổng hợp và sưu tầm trên Internet. Chúng tôi không chịu trách nhiệm đối với bất kỳ nội dung nào được đăng tải trên trang web này.<br>
                                             Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.<br>
                                         </div>
