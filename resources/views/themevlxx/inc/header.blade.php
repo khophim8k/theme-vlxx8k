@@ -62,7 +62,7 @@
 
 <div class="fixheadresp">
     <header class="responsive">
-        <div class="nav"><a href="#" class="aresp nav-resp"></a></div>
+        <div class="nav"><a href="#" class="aresp nav-resp" aria-label="menu">></a></div>
 
         <div class="logo">
             <a href="/" title="{{ $title }}">
