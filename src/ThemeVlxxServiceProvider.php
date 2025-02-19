@@ -25,7 +25,7 @@ class ThemeVlxxServiceProvider extends ServiceProvider
         config(['themes' => array_merge(config('themes', []), [
             'vlxx' => [
                 'name' => 'Theme VLXX',
-                'author' => 'opdlnf01@gmail.com',
+                'author' => 'kho8k@gmail.com',
                 'package_name' => 'kho8k/theme-vlxx8k',
                 'publishes' => ['vlxx-assets'],
                 'preview_image' => '',
@@ -177,10 +177,6 @@ class ThemeVlxxServiceProvider extends ServiceProvider
                                 <div class="content">
                                     <div class="views-row">
                                         <div class="copy-right">
-                                            <a title="Giới thiệu" href="">Giới thiệu</a> |
-                                            <a title="Bản quyền" href="">Bản quyền</a> |
-                                            <a title="Liên hệ" href="">Liên hệ</a> |
-                                            <a title="phim mới" href="">Phim mới</a> |
                                             Website xem phim của chúng tôi được tổng hợp và sưu tầm trên Internet. Chúng tôi không chịu trách nhiệm đối với bất kỳ nội dung nào được đăng tải trên trang web này.<br>
                                             Disclaimer: This site does not store any files on its server. All contents are provided by non-affiliated third parties.<br>
                                         </div>
@@ -196,7 +192,7 @@ class ThemeVlxxServiceProvider extends ServiceProvider
                         'label' => 'Ads header',
                         'type' => 'code',
                         'value' => <<<EOT
-                        <img src="" alt="">
+                        
                         EOT,
                         'tab' => 'Ads'
                     ],
@@ -205,7 +201,7 @@ class ThemeVlxxServiceProvider extends ServiceProvider
                         'label' => 'Ads catfish',
                         'type' => 'code',
                         'value' => <<<EOT
-                        <img src="" alt="">
+                        
                         EOT,
                         'tab' => 'Ads'
                     ]
